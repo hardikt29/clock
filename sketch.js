@@ -36,13 +36,13 @@ rotate (-90);
   mnAngle = map(mn,0,60,0,360);
   arc(0,0,280,280,0,mnAngle);
   
-  stroke("red");
+  stroke("blue");
   hrAngle = map(hr%12,0,12,-0,360);
   arc(0,0,260,260,0,hrAngle);
   
   push();
   rotate(scAngle);
-  stroke("red");
+  stroke("green");
   line(0,0,100,0);
   pop();
   
@@ -55,7 +55,7 @@ rotate (-90);
   
   push();
   rotate(hrAngle);
-  stroke("green");
+  stroke("blue");
   line(0,0,50,0);
   pop();
   stroke("Black");
