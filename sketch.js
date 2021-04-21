@@ -27,16 +27,16 @@ rotate (-90);
    sc = second();
   
   strokeWeight(8);
-  stroke("red");
+  stroke("green");
   noFill();
   scAngle = map(sc,0,60,0,360);
   arc(0,0,300,300,0,scAngle);
   
-  stroke("green");
+  stroke("red");
   mnAngle = map(mn,0,60,0,360);
   arc(0,0,280,280,0,mnAngle);
   
-  stroke("blue");
+  stroke("red");
   hrAngle = map(hr%12,0,12,-0,360);
   arc(0,0,260,260,0,hrAngle);
   
