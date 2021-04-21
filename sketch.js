@@ -42,7 +42,7 @@ rotate (-90);
   
   push();
   rotate(scAngle);
-  stroke("blue");
+  stroke("red");
   line(0,0,100,0);
   pop();
   
