@@ -1,2 +1,2 @@
-# p5.play-boilerplate
-Boiler plate for p5.play
+# Clock
+It is both a digital and analog clock made in JS
